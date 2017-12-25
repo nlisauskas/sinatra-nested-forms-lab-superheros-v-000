@@ -11,7 +11,7 @@ class Hero
   end
 
   def self.all
-    @@all
+    HEROES
   end
   
 end
