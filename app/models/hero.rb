@@ -7,7 +7,6 @@ class Hero
     @name = hash[:name]
     @power = hash[:power]
     @biography = hash[:biography]
-    
   end
 
   def self.all
