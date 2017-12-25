@@ -1,13 +1,13 @@
 class Hero
 
   attr_accessor :name, :power, :biography
-  @@all = []
+  HEROES = []
 
   def initialize(hash)
     @name = hash[:name]
     @power = hash[:power]
     @biography = hash[:biography]
-    @@all << self
+    HEROES << self
   end
 
   def self.all
