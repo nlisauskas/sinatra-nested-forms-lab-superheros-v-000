@@ -6,6 +6,5 @@ class Team
       @name = hash[:name]
       @motto = hash[:motto]
       @heroes = hash[:heroes]
-      
     end
 end
